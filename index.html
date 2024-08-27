@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Holiday</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .media img, .media video, .media audio {
+            margin: 10px;
+            max-width: 100%;
+        }
+
+        ul, table {
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Holiday</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#bullet">Bullet List</a></li>
+                <li><a href="#table">Table</a></li>
+                <li><a href="#frame">Frame</a></li>
+                <li><a href="#iframe">iFrame</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to My Homepage</h2>
+            <h2>Nama : M Rendi Saputra</h2>
+            <h2>Nim : 211011400843</h2>
+            <p>Explore the beauty of various holiday destinations. Enjoy the images, videos, and background sound we have prepared for you.</p>
+            
+            <div class="media">
+                <img src="wisata indonesia.jpeg" alt="Holiday Image">
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <audio controls autoplay>
+                    <source src="audio.mpeg" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
+
+        <!-- Bullet List Section -->
+        <section id="bullet">
+            <h2>Popular Destinations</h2>
+            <ul>
+                <li>Bali</li>
+                <li>Yogyakarta</li>
+                <li>Lombok</li>
+                <li>Komodo Island</li>
+                <li>Raja Ampat</li>
+            </ul>
+        </section>
+
+        <!-- Table Section -->
+        <section id="table">
+            <h2>Flight Schedule</h2>
+            <table>
+                <tr>
+                    <th>Flight</th>
+                    <th>Destination</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>GA 123</td>
+                    <td>Bali</td>
+                    <td>10:00 AM</td>
+                </tr>
+                <tr>
+                    <td>GA 456</td>
+                    <td>Yogyakarta</td>
+                    <td>2:00 PM</td>
+                </tr>
+                <tr>
+                    <td>GA 789</td>
+                    <td>Lombok</td>
+                    <td>6:00 PM</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Frame Section -->
+        <section id="frame">
+            <h2>Destination Gallery</h2>
+            <iframe src="bali.jpeg" width="300" height="170"></iframe>
+            <iframe src="jogja.jpeg" width="300" height="170"></iframe>
+            <iframe src="lombok.jpeg" width="300" height="170"></iframe>
+        </section>
+
+        <!-- iFrame Section -->
+        <section id="iframe">
+            <h2>External Content</h2>
+            <iframe src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cimbniaga.co.id%2Fid%2Finspirasi%2Fgayahidup%2Frekomendasi-tempat-wisata-alam-dan-budaya-di-pulau-bali&psig=AOvVaw30JJw-sNRUTdLBNRf4VeGN&ust=1722595729868000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDi1avP04cDFQAAAAAdAAAAABAE" width="600" height="400"></iframe>
+        </section>
+    </main>
+</body>
+</html>
